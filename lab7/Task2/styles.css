@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.container {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.block1, .block2, .block3 {
+    margin: 15px auto;
+    padding: 15px;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.block1 {
+    background-color: green;
+    width: 150px;
+}
+
+.block2 {
+    background-color: royalblue;
+    color: white;
+    width: 300px;
+
+    opacity: 0;
+    visibility: hidden;
+}
+
+.block3 {
+    background-color: darkviolet;
+    color: white;
+    width: 450px;
+
+    opacity: 0;
+    visibility: hidden;
+}
+
+.block1:hover + .block2,
+.block2:hover,
+.block3:hover {
+    opacity: 1;
+    visibility: visible;
+}
+
+.block2:hover + .block3,
+.block3:hover {
+    opacity: 1;
+    visibility: visible;
+}
