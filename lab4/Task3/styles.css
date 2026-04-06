@@ -1,0 +1,28 @@
+a {
+    color: purple;
+}
+
+.main-link {
+    color: green;
+    font-weight: bold;
+}
+
+.square-list {
+    list-style-type: square;
+}
+
+.icon-list {
+    list-style-type: '\2713';
+}
+
+.square-list a {
+    text-decoration: none;
+}
+
+.other ol {
+    list-style-position: inside;
+}
+
+.no-dots {
+    list-style-type: none;
+}
