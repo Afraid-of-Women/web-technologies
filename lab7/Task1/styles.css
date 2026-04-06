@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    position: relative;
+    width: 900px;
+    height: 600px;
+    margin: 20px auto;
+}
+
+.block {
+    position: absolute;
+    border: 2px solid black;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 18px;
+}
+
+.top-block {
+    width: 800px;
+    height: 80px;
+    background-color: green;
+    color: white;
+    top: 20px;
+    left: 50px;
+    z-index: 1;
+}
+
+.left-block {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    color: white;
+    top: 140px;
+    left: 50px;
+    z-index: 2;
+}
+
+.right-block {
+    width: 580px;
+    height: 200px;
+    background-color: darkviolet;
+    top: 140px;
+    left: 270px;
+    z-index: 1;
+}
+
+.bottom-block {
+    width: 800px;
+    height: 100px;
+    background-color: darkviolet;
+    top: 380px;
+    left: 50px;
+    z-index: 3;
+}
