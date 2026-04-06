@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: darkblue;
+    font-size: 28px;
+}
+
+p {
+    font-size: 16px;
+    color: grey;
+}
+
+.map-container {
+    display: inline-block;
+    border: 3px solid darkblue;
+    padding: 10px;
+    background-color: white;
+}
+
+img {
+    display: block;
+}
