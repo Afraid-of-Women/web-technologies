@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: lightgrey;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.weather-app {
+    width: 700px;
+    background: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+/* ===== Верхній блок ===== */
+
+.current-weather {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid grey;
+    padding-bottom: 20px;
+    color: dimgrey;
+}
+
+.location h1 {
+    font-size: 42px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.location p {
+    color: grey;
+    margin-bottom: 4px;
+}
+
+.current-info {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.temp-block {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.temp-block img {
+    width: 70px;
+}
+
+.temperature {
+    font-size: 48px;
+    font-weight: 300;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: dimgrey;
+}
+
+.forecast {
+    display: flex;
+    flex-direction: column;
+}
+
+.day {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+    border-bottom: 1px solid grey;
+}
+
+.day img {
+    width: 45px;
+}
+
+.day-name {
+    width: 120px;
+    font-weight: bold;
+    color: dimgrey;
+}
+
+.day-temp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60px;
+}
+
+.day-temp span {
+    font-size: 18px;
+}
+
+.day-temp .low {
+    color: dimgrey;
+}
+
+.pollen {
+    width: 100px;
+    text-align: right;
+    color: dimgrey;
+}
